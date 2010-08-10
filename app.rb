@@ -120,7 +120,7 @@ __END__
   # your app
   oauth = Twitter::OAuth.new('<%=h @ctoken%>', '<%=h @csecret%>')
   # your login
-  oauth.authorize_from_access('<%=h @atoken}', '<%=h @asecret%>')
+  oauth.authorize_from_access('<%=h @atoken%>', '<%=h @asecret%>')
   twitter = Twitter::Base.new(oauth)
   
   require 'pp'
