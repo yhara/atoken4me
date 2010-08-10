@@ -1,0 +1,33 @@
+Atoken4Me
+=========
+
+Tiny Sinatra app helps you to get the 'atoken' and 'asecret'.
+
+When you want to create a twitter bot, you need to:
+
+1. get the 'ctoken' and 'csecret' by registering the app
+2. get the 'rtoken' and 'rsecret' from them
+3. get the 'atoken' and 'asecret' from them
+
+How to use
+----------
+
+Open http://atoken4me.heroku.com/ and follow the steps.
+
+Contact
+=======
+
+yhara / Yutaka HARA / http://route477.net
+
+Japanese description
+====================
+
+Twitterボットを作るためだけに
+
+1. ctoken/csecretを取得
+2. rtoken/rsecretを取得
+3. atoken/asecretを取得
+
+とか毎回考えるのが面倒なので、ウィザード形式でatokenが手に入るアプリを作った。
+
+http://atoken4me.heroku.com
