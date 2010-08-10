@@ -28,6 +28,4 @@ Twitterボットを作るためだけに
 2. rtoken/rsecretを取得
 3. atoken/asecretを取得
 
-とか毎回考えるのが面倒なので、ウィザード形式でatokenが手に入るアプリを作った。
-
-http://atoken4me.heroku.com
+とか毎回考えるのが面倒なので、ウィザード形式でatokenが手に入るアプリを作った。→ http://atoken4me.heroku.com
