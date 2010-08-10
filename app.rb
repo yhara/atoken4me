@@ -4,7 +4,6 @@ require 'rack-flash'
 require 'twitter'
 require 'haml'
 require 'json'
-require (Pathname(__FILE__).dirname+"./consumer_token.rb").expand_path
 
 configure do
   enable :sessions
