@@ -55,6 +55,10 @@ post "/atoken" do
   haml :atoken
 end
 
+get "/test" do
+  raise RuntimeError, "hi"
+end
+
 __END__
 
 @@ layout
