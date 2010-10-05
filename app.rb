@@ -1,4 +1,5 @@
 require 'pathname'
+require 'newrelic_rpm'
 require 'sinatra'
 require 'rack-flash'
 require 'twitter'

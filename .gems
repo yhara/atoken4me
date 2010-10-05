@@ -3,3 +3,4 @@ rack-flash -v 0.1.1
 twitter    -v 0.9.8
 haml       -v 2.2.20
 json       -v 1.2.0
+newrelic_rpm
