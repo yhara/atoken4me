@@ -1,10 +1,15 @@
 require 'pathname'
-require 'newrelic_rpm'
 require 'sinatra'
 require 'rack-flash'
 require 'twitter'
 require 'haml'
 require 'json'
+
+configure :production do
+  ENV['APP_ROOT'] ||= File.dirname(__FILE__)
+  $:.unshift "#{ENV['APP_ROOT']}/vendor/plugins/newrelic_rpm/lib"
+  require 'newrelic_rpm'
+end
 
 configure do
   enable :sessions
